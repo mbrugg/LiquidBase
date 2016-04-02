@@ -1,4 +1,5 @@
 #include <iostream>
+#include "sqlite3\sqlite3.h"
 
 using namespace std;
 

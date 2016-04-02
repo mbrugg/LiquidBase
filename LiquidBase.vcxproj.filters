@@ -18,10 +18,22 @@
     <ClCompile Include="liquidbase.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="sqlite3\shell.c">
+      <Filter>Ressourcendateien</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3\sqlite3.c">
+      <Filter>Ressourcendateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lbdatabase.h">
       <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3\sqlite3.h">
+      <Filter>Ressourcendateien</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3\sqlite3ext.h">
+      <Filter>Ressourcendateien</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
